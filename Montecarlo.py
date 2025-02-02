@@ -19,7 +19,7 @@ def monte_carlo_simulation(num_simulations, years, discount_rate, base_sales, sa
         npv_simulations.append(npv)
     return np.array(npv_simulations)
 
-st.title("📊 Monte Carlo Simulation - Finance")
+st.title("📊 Project Valuation & NPV Simulation Tool with Monte Carlo")
 st.subheader("By: Diego Gonzalez Farias")
 
 st.header("🔧 How to Use the Tool")
